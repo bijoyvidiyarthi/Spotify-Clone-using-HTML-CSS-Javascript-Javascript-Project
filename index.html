@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="icon" sizes="32x32" type="image/png" href="spotify-fav.png">
+    <link rel="icon" sizes="16x16" type="image/png" href="spotify16fav.png">
+    <title>Spotify - Web Player: Music for everyone'</title>
+
+</head>
+
+<body>
+    <div class="main-container flex justify-center m-1">
+        <div class="left m-r">
+            <div class="home grey-bg rounded p-1">
+                <div class="logo logo-container flex">
+                    <a class="flex align-center">
+                        <img class="invert icon" src="logo.svg" alt="logo">
+                        Spotify
+                    </a>
+                    <div class="cross flex align-center">
+                        <img class="invert icon" src="cross.svg" alt="cross icon">
+                    </div>
+                </div>
+                <ul class="home-container">
+                    <li><img id="home-icon " class="invert icon" src="home.svg" alt="home button">Home</li>
+                    <li><img id="search-icon " class="invert icon" src="search.svg" alt="search button">Search</li>
+                </ul>
+            </div>
+            <div class="library grey-bg rounded m-t flex flex-column">
+                <div class="heading p-1 flex align-center justify-space">
+                    <button id="playlist-btn" class="flex align-center btn-prim pointer">
+                        <img id="playlist-icon" class="half-invert icon" src="playlist.svg" alt="playlist button">
+                        <h2 class="hover-white library-header"> Your Library</h2>
+                    </button>
+                    <div class="create pointer">
+                        <img src="plus.svg" class="half-invert icon" alt="create new icon" id="create-icon">
+                    </div>
+                </div>
+
+                <div class="songList scroll-container">
+                    <ul>
+                        <li>
+                            <img class="icon invert" src="music.svg" alt="music icon">
+                            <div class="songInfo">
+                                <div class="SongName">Song Name</div>
+                                <div class="artistName hover-white">Artist Name</div>
+                            </div>
+                            <div class="playnow">
+                                <span>Play Now</span>
+                                <img class="icon" src="play.svg" alt="play icon">
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+
+                <footer>
+                    <div class="border-1"></div>
+                    <div class="footer-container flex-column">
+                        <div id="footer-links" class="flex">
+                            <div class="footer-link">
+                                <a href="https://www.spotify.com/bd-en/legal/"><span>Legal</span></a>
+                            </div>
+                            <div class="footer-link">
+                                <a href="https://www.spotify.com/bd-en/safetyandprivacy/">
+                                    <span>Safety &amp; PrivacyCenter</span>
+                                </a>
+                            </div>
+                            <div class="footer-link">
+                                <a href="https://www.spotify.com/bd-en/legal/privacy-policy/">
+                                    <span>Privacy Policy</span>
+                                </a>
+                            </div>
+                            <div class="footer-link">
+                                <a href="https://www.spotify.com/bd-en/legal/cookies-policy/">
+                                    <span>Cookies</span>
+                                </a>
+                            </div>
+                            <div class="footer-link">
+                                <a href="https://www.spotify.com/bd-en/legal/privacy-policy/#s3">
+                                    <span>About Ads</span>
+                                </a>
+                            </div>
+                            <div class="footer-link">
+                                <a href="https://www.spotify.com/bd-en/accessibility/">
+                                    <span>Accessibility</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <a draggable="false" href="https://www.spotify.com/legal/cookies-policy/" target="_blank"
+                            rel="noopener">
+                            <span>Cookies</span>
+                        </a>
+                </footer>
+
+            </div>
+
+        </div>
+        <div class="right rounded grey-bg">
+            <div class="header flex align-center justify-space">
+
+                <div class="nav flex align-center">
+                    <div class="hamburger">
+                        <img class="invert icon" src="hamburger.svg" alt="hamburger icon">
+                    </div>
+                    <span><img class="invert icon" src="left.svg" alt="righ-arrow"></span>
+                    <span><img class="invert icon" src="right.svg" alt="left-arrow"></span>
+                </div>
+                <div class="buttons flex justify-center align-center">
+                    <span id="signup"><button class="signup hover-white" id="signup-btn">Sign up</button></span>
+                    <span id="login"><button class="login" id="login-btn">Log in</button></span>
+                </div>
+            </div>
+
+            <div class="SpotifPlaylists">
+                <h1>Spotify Plyalists</h1>
+
+                <div class="card-container scroll-container flex">
+
+                    <div data-folder="" class="music-card flex flex-column justify-center">
+                        <div class="playlist-cover">
+                            <img src="playlist-covers/playlist-1.jpg" alt="song-cover-img">
+                            <button class="btn-prim">
+                                <img class="Play-Btn" src="Play-Btn.svg" alt="play button">
+                            </button>
+                        </div>
+                        <div class="playlist-details flex flex-column">
+                            <span class="title"><a href="">Most Popular English Songs Ever ❤️🔥!!</a></span>
+                            <span class="description">By Prince Agrawal</span>
+                        </div>
+                    </div>
+
+                    <div data-folder="" class="music-card flex flex-column justify-center">
+                        <div class="playlist-cover">
+                            <img src="playlist-covers/playlist-1.jpg" alt="song-cover-img">
+                            <button class="btn-prim">
+                                <img class="Play-Btn" src="Play-Btn.svg" alt="play button">
+                            </button>
+                        </div>
+                        <div class="playlist-details flex-column">
+                            <span class="title"><a href="">Most Popular English Songs Ever ❤️🔥!!</a></span>
+                            <span class="description">By Prince Agrawal</span>
+                        </div>
+                    </div>
+
+                  
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="playbar flex align-center ">
+        <div class="song-details flex align-center">
+            <div class="song-cover">
+                <img src="playlist-covers/playlist-1.jpg" alt="song-cover-img">
+            </div>
+            <div class="song-desc flex-column">
+                <span class="song-title"><a href="">Most Popular English Songs Ever ❤️🔥!!</a></span>
+                <span class="desc"><a href="">By Prince Agrawal</a></span>
+            </div>
+
+        </div>
+
+        <!-- playbar -->
+        <div class="playing-bar">
+            <div class="songButtons flex align-center justify-center">
+                <button><img class=" playcontrol prev  half-invert" src="previous.svg" alt="previous icon"></button>
+                <button><img class=" playbtn" src="play.svg" alt="play button"></button>
+                <button><img class=" playcontrol next half-invert" src="next.svg" alt="next icon"></button>
+            </div>
+
+            <!-- Seekbar Section -->
+            <div class="song-timeline flex align-center">
+                <span class="current-time">0:00</span>
+                <input type="range" class="seekbar" value="0" min="0" max="100" step="1">
+                <span class="total-time">3:45</span>
+            </div>
+        </div>
+
+        <div class="sound flex align-center">
+            <img class="icon invert" id="volume-icon" src="sound.svg" alt="sound icon">
+            <input type="range" id="volume-bar" name="volume" class="volume" value="0" min="0" max="100" step="1">
+        </div>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,182 @@
+:root {
+    ---margin-gap: 8px;
+}
+
+html,
+body,
+.scroll-container {
+    scroll-behavior: smooth;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-space {
+    justify-content: space-between;
+}
+
+.rounded {
+    border-radius: 9px;
+}
+
+.grey-bg {
+    background-color: #121212;
+}
+
+.grey-box {
+    background-color: #1f1f1f;
+}
+
+.m-1 {
+    margin: var(---margin-gap);
+}
+
+.m-r {
+    margin-right: var(---margin-gap);
+}
+
+.m-b {
+    margin-bottom: var(---margin-gap);
+}
+
+.m-t {
+    margin-top: var(---margin-gap);
+}
+
+.p-1 {
+    padding: 21px;
+}
+
+.half-invert {
+    filter: invert(0.7);
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.inverthover {
+    filter: invert(0.9);
+}
+
+
+.t-dec-none {
+    text-decoration: none;
+}
+
+.fill {
+    fill: white;
+}
+
+.stroke {
+    stroke: #fff;
+}
+
+.icon {
+    height: 19px;
+    width: 19px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.btn-prim {
+    background: transparent;
+    border: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.border-1 {
+    margin: 0px 20px;
+    border-top: 0.9px solid #262626;
+}
+
+
+.hover-white:hover {
+    color: white;
+    transition: color, 0.2s ease-in;
+}
+
+
+.hidden {
+    display: hidden;
+}
+
+.visible {
+    display: visible;
+}
+
+/* designing the Scrollbar */
+
+/* Hide scrollbar by default */
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+/* Show scrollbar only on hover */
+.scroll-container:hover::-webkit-scrollbar {
+    width: 8px;
+    /* scrollbar width */
+}
+
+/* Track */
+.scroll-container::-webkit-scrollbar-track {
+    background: #111;
+}
+
+/* Thumb (super tiny scroll line) */
+.scroll-container::-webkit-scrollbar-thumb {
+    background: #444;
+    border-radius: 0;
+    /* rectangular */
+    min-height: 4px;
+    /* smaller line */
+    max-height: 6px;
+    /* ensures it stays tiny */
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #666;
+    /* lighter on hover */
+}
