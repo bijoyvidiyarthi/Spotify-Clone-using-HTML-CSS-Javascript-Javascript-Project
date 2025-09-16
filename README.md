@@ -150,3 +150,28 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 ---
 
 Built as a learning project. Inspired by Spotify's UI/UX. Not affiliated with Spotify. If you have questions, open an issue! 🎶
+
+---
+
+## HashTags
+
+- #spotifyclone
+- #javascript
+- #html
+- #css
+- #vanillajs
+- #frontend
+- #webdevelopment
+- #project
+- #musicplayer
+- #responsive
+- #audioplayer
+- #github
+- #learningproject
+- #webdev
+- #spotify
+- #cloning
+- #purejs
+- #js
+- #css3
+- #html5
